@@ -1,0 +1,279 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+
+}
+/* background video start */
+.videox {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+@media (min-aspect-ratio:16/9) {
+    .videox {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-aspect-ratio:16/9) {
+    .videox {
+        height: 100%;
+        width: auto;
+    }
+}
+/* background video end */
+/* 
+navbar obviously start */
+
+h1 {
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
+    font-family: 'Alkalami', serif;
+    position: relative;
+    bottom: 13px;
+
+
+}
+
+nav {
+    background-color: black;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+div.nbar {
+    color: bisque;
+    float: right;
+    font-family: monospace;
+    font-weight: bold;
+
+}
+
+a#two {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 15px;
+}
+
+/* navbar end */
+
+/* heading start */
+h2#Ahem {
+    position: absolute;
+    top: 100px;
+    left: 30px;
+    font-family: 'Arvo', serif;
+    font-size: 80px;
+    color: whitesmoke;
+
+}
+
+h2#Ahem:hover {
+    transition: 1s;
+    color: peachpuff;
+    /* background-image: url('https://i0.wp.com/erickimphotography.com/blog/wp-content/uploads/2019/12/snow-HD-60-fps-gif.gif?fit=706%2C388&ssl=1'); */
+    -moz-background-clip: text;
+    -webkit-background-clip: text;
+}
+
+h2#Ahem::before {
+    content: "SHAPING INDIA'S INFRASTURUCTURE";
+}
+
+h2#Ahem:hover::before {
+    content: "हम भारत के बुनियादी ढांचे को आकार देते हैं";
+    padding-left: 80px;
+}
+
+/* heading end */
+
+/* boxes */
+
+div.box {
+    position: absolute;
+    top: 66%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+div#inbox1 {
+    background-color: rgb(0, 0, 0);
+    border-radius: 20px;
+    border: 2px solid rgb(189, 64, 64);
+    width: 320px;
+    height: 270px;
+    left: 33px;
+    margin-left: 80px;
+
+}
+
+h1#aboutH {
+    font-family: 'Arvo', serif;
+    font-size: 25px;
+    padding-top: 14px;
+    color: rgb(194, 177, 177);
+    font-weight: 600;
+    padding-left: 2.5cm;
+    bottom: 30px;
+
+}
+
+img#lol {
+
+
+
+    max-width: 20%;
+    padding-left: 110px;
+    filter: invert(100%);
+
+
+    height: auto;
+}
+
+p#yuo {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    padding-left: 17px;
+    padding-right: 8px;
+    font-weight: 900;
+
+    bottom: 15px;
+
+}
+
+div#inbox2 {
+    background-color: rgb(0, 0, 0);
+    border-radius: 20px;
+    border: 2px solid rgb(189, 64, 64);
+    width: 320px;
+    height: 270px;
+    margin-left: 80px;
+
+
+
+}
+
+img#lmao {
+
+
+
+    max-width: 20%;
+    padding-left: 130px;
+    filter: invert(100%);
+    padding-top: 5px;
+
+
+    height: auto;
+}
+
+h1#CallH {
+    font-family: 'Arvo', serif;
+    font-size: 25px;
+    padding-top: 14px;
+    color: rgb(194, 177, 177);
+    font-weight: 600;
+    padding-left: 2.7cm;
+    bottom: 30px;
+}
+
+a#phone {
+    text-decoration: none;
+    color: aqua;
+    font-size: 25px;
+    font-style: italic;
+    font-weight: 900;
+    padding-left: 70px;
+}
+
+div#inbox3 {
+    width: 320px;
+    height: 270px;
+    border: 2px solid red;
+    margin-left: 30px;
+    border-radius: 20px;
+    background-color: black;
+    margin-left: 70px;
+}
+
+img#lul {
+    max-width: 20%;
+    padding-left: 126px;
+    filter: invert(100%);
+    padding-top: 5px;
+    height: auto;
+
+}
+
+h1#MailM {
+    font-family: 'Arvo', serif;
+    font-size: 25px;
+    padding-top: 14px;
+    color: rgb(194, 177, 177);
+    font-weight: 600;
+    padding-left: 2.5cm;
+    bottom: 30px;
+}
+
+a#email {
+    text-decoration: none;
+    color: aqua;
+    font-size: 25px;
+    font-style: italic;
+    font-weight: 900;
+    padding-left: 20px;
+
+}
+
+div#inbox4 {
+    width: 320px;
+    height: 270px;
+    border: 2px solid red;
+    margin-left: 70px;
+    border-radius: 20px;
+    background-color: black;
+}
+
+img#xD {
+    max-width: 20%;
+    padding-left: 126px;
+    filter: invert(100%);
+    padding-top: 5px;
+    height: auto;
+}
+
+h1#addressM {
+    font-family: 'Arvo', serif;
+    font-size: 25px;
+    padding-top: 14px;
+    color: rgb(194, 177, 177);
+    font-weight: 600;
+    padding-left: 2.5cm;
+    bottom: 30px;
+}
+
+a#bones {
+    text-decoration: none;
+    color: aqua;
+    font-size: 25px;
+    font-style: italic;
+    font-weight: 900;
+    padding-left: 20px;
+
+}
+/* end of boxes */
